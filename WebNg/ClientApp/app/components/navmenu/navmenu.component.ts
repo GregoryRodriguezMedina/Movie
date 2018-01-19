@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthService } from "../../services/AuthService";
 //import { CookieService } from 'angular2-cookie/services/cookies.service';
 
 
@@ -8,9 +9,10 @@ import { Component } from '@angular/core';
     styleUrls: ['./navmenu.component.css']
 })
 export class NavMenuComponent {
-    //constructor(private cookieService: CookieService) { }
+    constructor(private auth: AuthService) { }
 
     isLogin() {
+        // return this.auth.isLoggedIn; 
         return true;
         //  return (this.cookieService.get('currentUser'));//localStorage.getItem('currentUser'));
     }

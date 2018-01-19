@@ -28,6 +28,7 @@ import { PaginationComponent } from './components/shared/pagination.component'
 
 import { LoginComponent } from './components/app/login.component';
 import { AuthGuard } from "./components/shared/AuthGuard";
+import { AuthService } from "./services/AuthService";
 //import { CookieService } from "angular2-cookie/services/cookies.service";
 
 
@@ -73,7 +74,8 @@ import { AuthGuard } from "./components/shared/AuthGuard";
     ],
     providers: [
         DataService,
-        AuthGuard
+        AuthGuard,
+        AuthService
         //CookieService 
     ]
 })

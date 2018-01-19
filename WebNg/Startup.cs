@@ -12,6 +12,8 @@ using EnCore.Movie.Data;
 using EnCore.Movie.Services;
 using Microsoft.EntityFrameworkCore;
 
+using EnCore.Movie.Identity;
+
 namespace WebNg
 {
     public class Startup
@@ -32,6 +34,8 @@ namespace WebNg
 
             services.AddServices();
 
+            services.AddIdentity();
+
             string conn = Configuration.GetConnectionString("Default");
             services.AddDbContext<MovieDbContext>(options => options.UseSqlServer(conn));
 
@@ -45,6 +49,7 @@ namespace WebNg
                     );
             });
 
+            //Configuration.AddEnvironmentVariables();
             services.AddMvc();
         }
 
@@ -66,7 +71,8 @@ namespace WebNg
 
             app.UseStaticFiles();
 
-            app.UseCors("AllwAnyOrigin");
+            app.UseCors("AllwAnyOrigin");            
+            
 
             app.UseMvc(routes =>
             {

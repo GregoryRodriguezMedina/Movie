@@ -26,8 +26,8 @@ export class DataService {
         this.accountBaseUrl = baseUrl + 'api/security'; 
     }
 
-    getSession() {
-        return this.http.get(this.accountBaseUrl + '/session/')
+    getSession() {       
+        return this.http.get(this.accountBaseUrl)
             .map(res => res.json());
     }
 

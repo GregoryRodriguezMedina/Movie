@@ -7,6 +7,7 @@ using EnCore.Movie.Services;
 using EnCore.Core;
 using Microsoft.AspNetCore.Cors;
 using EnCore.Movie.Identity;
+using EnCore.Movie.Core;
 
 namespace WebNg.Controllers
 {
@@ -26,17 +27,17 @@ namespace WebNg.Controllers
         
         // POST: api/Movies
         [HttpPost("login")]
-        public IActionResult Login([FromBody]string user, string password)
+        public IActionResult Login([FromBody]LoginRequest login)
         {
             return this.GetHttpResponse(() =>
             {
-                var result = this.userService.Login(user, password);
+                var result = this.userService.Login(login);
 
                 return Ok(result);
             });
         }
 
-        [HttpGet("session")]
+        [HttpGet()]
         public IActionResult Session()
         {
             return this.GetHttpResponse(() =>

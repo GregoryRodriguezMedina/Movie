@@ -36,15 +36,12 @@ export class LoginComponent implements OnInit {
     }
    
     onSubmit() {
-
         let headers = new Headers();
-        headers.append('Content-Type', 'application/json');
-         alert(JSON.stringify(this.sec))
+        headers.append('Content-Type', 'application/json');        
          this.http.post('api/security/login', this.sec, { headers })
             .map(res => res.json())
-            .subscribe(res => {
-                //localStorage.setItem('currentUser', JSON.stringify(res.token));
-
+             .subscribe(res => {
+                 alert(this.returnUrl);
                 this.router.navigate([this.returnUrl]);
             }, (err) => {
                 //alert(JSON.stringify(err))

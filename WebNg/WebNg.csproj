@@ -21,11 +21,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\app\services\AuthService.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\EnCore.Core\EnCore.Core.csproj" />
     <ProjectReference Include="..\EnCore.Movie.Core\EnCore.Movie.Core.csproj" />
     <ProjectReference Include="..\EnCore.Movie.Data\EnCore.Movie.Data.csproj" />
     <ProjectReference Include="..\EnCore.Movie.Identity\EnCore.Movie.Identity.csproj" />
     <ProjectReference Include="..\EnCore.Movie.Services\EnCore.Movie.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\app\services\AuthService.ts" />
   </ItemGroup>
 
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
