@@ -1,0 +1,33 @@
+﻿<h1>{{titleDesc}}</h1>
+<form (ngSubmit)="onSubmit($event)" #movieForm="ngForm" novalidate>        
+    <div class="form-group">
+        <label for="title">Titulo</label>
+        <input id="title" name="title" type="text" class="form-control" [(ngModel)]="movie.title" #title="ngModel" required />
+        <div class="alert alert-danger" *ngIf="title.touched && !title.valid">El titulo es requerido.</div>
+    </div>
+    <div class="form-group">
+        <label for="duration">Duración</label>
+        <input id="duration" name="duration" type="text" class="form-control" [(ngModel)]="movie.duration" #duration="ngModel" required />
+        <div class="alert alert-danger" *ngIf="duration.touched && !duration.valid">La duración es requerida.</div>
+    </div>
+
+    <div class="form-group">
+        <label for="synopsis">Synopsis</label>
+        <input id="synopsis" name="synopsis" type="text" class="form-control" [(ngModel)]="movie.synopsis" #synopsis="ngModel" />        
+    </div>
+    <div class="form-group">
+        <label for="quantityAvailable">Cantidad disponibles</label>
+        <input id="quantityAvailable" name="quantityAvailable" type="text" class="form-control" [(ngModel)]="movie.quantityAvailable" #quantityAvailable="ngModel" required/>
+        <div class="alert alert-danger" *ngIf="quantityAvailable.touched && !quantityAvailable.valid">La cantidad disponible es requerida.</div>
+    </div>
+    <div class="form-group">
+        <label for="rentalPrice">Precio Alquiler</label>
+        <input id="rentalPrice" name="rentalPrice" type="text" class="form-control" [(ngModel)]="movie.rentalPrice" #rentalPrice="ngModel" required />
+        <div class="alert alert-danger" *ngIf="rentalPrice.touched && !rentalPrice.valid">El precio de alquiler es requerido.</div>
+    </div>
+
+    <button  type="submit" class="btn btn-primary" [disabled]="!movieForm.valid">Save</button>
+    <!--<button class="btn btn-danger" type="button" *ngIf="movie.movieId" (click)="delete()">Delete</button>-->
+    <button class="btn btn-default" (click)="cancel($event)">Cancel</button>&nbsp;&nbsp;
+    <div class="alert alert-danger" *ngIf="errorMessage != null">{{ errorMessage }}</div>
+</form>
