@@ -16,7 +16,7 @@ export class DataService {
     private readonly customerBaseUrl: string;
     private readonly movieBaseUrl: string;
     private readonly rentalBaseUrl: string;
-    private readonly accountBaseUrl : string;
+    private readonly accountBaseUrl: string;
 
     //private readonly BaseUrl: string;
     constructor(private http: Http, @Inject('BASE_URL') baseUrl: string){

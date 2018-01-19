@@ -2066,7 +2066,7 @@
     },
     "mydatepicker": {
       "version": "2.6.1",
-      "from": "mydatepicker@latest",
+      "from": "mydatepicker@>=2.6.1 <3.0.0",
       "resolved": "https://registry.npmjs.org/mydatepicker/-/mydatepicker-2.6.1.tgz"
     },
     "nanomatch": {

@@ -1,5 +1,3 @@
-
-
 import 'reflect-metadata';
 import 'zone.js';
 import 'rxjs/add/operator/first';
