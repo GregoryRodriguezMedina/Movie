@@ -1,0 +1,15 @@
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\bin\Debug\netcoreapp2.0\EnCore.Movie.Services.deps.json
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\bin\Debug\netcoreapp2.0\EnCore.Movie.Services.dll
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\bin\Debug\netcoreapp2.0\EnCore.Movie.Services.pdb
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\bin\Debug\netcoreapp2.0\EnCore.Core.dll
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\bin\Debug\netcoreapp2.0\EnCore.Movie.Core.dll
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\bin\Debug\netcoreapp2.0\EnCore.Movie.Data.dll
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\bin\Debug\netcoreapp2.0\EnCore.Core.pdb
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\bin\Debug\netcoreapp2.0\EnCore.Movie.Core.pdb
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\bin\Debug\netcoreapp2.0\EnCore.Movie.Data.pdb
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\obj\Debug\netcoreapp2.0\EnCore.Movie.Services.csprojResolveAssemblyReference.cache
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\obj\Debug\netcoreapp2.0\EnCore.Movie.Services.csproj.CoreCompileInputs.cache
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\obj\Debug\netcoreapp2.0\EnCore.Movie.Services.AssemblyInfoInputs.cache
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\obj\Debug\netcoreapp2.0\EnCore.Movie.Services.AssemblyInfo.cs
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\obj\Debug\netcoreapp2.0\EnCore.Movie.Services.dll
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Services\obj\Debug\netcoreapp2.0\EnCore.Movie.Services.pdb

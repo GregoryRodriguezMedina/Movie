@@ -1,0 +1,48 @@
+﻿<h2>
+    Peliculas
+</h2>
+<div class="col-lg-12">
+<hr/>
+</div>
+<p>
+    <a [routerLink]="['/movie/new']" class="btn btn-primary">Nuevo</a>
+</p>
+<!--<div class="well">
+    <div class="form-group">
+        <label for="search">Buscar</label>
+        <input id="searchmovie" name="searchmovie" type="text" class="form-control" />
+
+        <button class="btn btn-defaul" (click)="resetFilter()">Limpiar</button>
+    </div>
+</div>-->
+<table class="table">
+    <thead>
+        <tr>           
+            <th></th>
+            <th>
+                Titulo
+            </th>
+            <th>
+                Synopsis
+            </th>
+            <th>
+                Precio renta
+            </th>
+            <th></th>
+        <tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of queryResult.items">
+            <td>{{ row.movieId }}</td>
+            <td>{{ row.title }}</td>
+            <td>{{ row.synopsis }}</td>
+            <td>{{ row.rentalPrice }}</td>
+            <td>
+                <a [routerLink]="['/movie', row.movieId]">
+                    <i class="glyphicon glyphicon-pencil"></i>
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<pagination [total-items]="queryResult.itemCount" [page-size]="query.per_page" (page-changed)="onPageChange($event)"></pagination>

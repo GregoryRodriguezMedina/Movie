@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EnCore.Core\EnCore.Core.csproj" />
+    <ProjectReference Include="..\EnCore.Movie.Core\EnCore.Movie.Core.csproj" />
+    <ProjectReference Include="..\EnCore.Movie.Data\EnCore.Movie.Data.csproj" />
+  </ItemGroup>
+
+</Project>

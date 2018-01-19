@@ -1,0 +1,11 @@
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Core\bin\Debug\netcoreapp2.0\EnCore.Movie.Core.deps.json
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Core\bin\Debug\netcoreapp2.0\EnCore.Movie.Core.dll
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Core\bin\Debug\netcoreapp2.0\EnCore.Movie.Core.pdb
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Core\obj\Debug\netcoreapp2.0\EnCore.Movie.Core.csproj.CoreCompileInputs.cache
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Core\obj\Debug\netcoreapp2.0\EnCore.Movie.Core.AssemblyInfoInputs.cache
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Core\obj\Debug\netcoreapp2.0\EnCore.Movie.Core.AssemblyInfo.cs
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Core\obj\Debug\netcoreapp2.0\EnCore.Movie.Core.dll
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Core\obj\Debug\netcoreapp2.0\EnCore.Movie.Core.pdb
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Core\obj\Debug\netcoreapp2.0\EnCore.Movie.Core.csprojResolveAssemblyReference.cache
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Core\bin\Debug\netcoreapp2.0\EnCore.Core.dll
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Core\bin\Debug\netcoreapp2.0\EnCore.Core.pdb

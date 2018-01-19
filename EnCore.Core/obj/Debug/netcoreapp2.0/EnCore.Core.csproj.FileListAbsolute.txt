@@ -1,0 +1,9 @@
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Core\bin\Debug\netcoreapp2.0\EnCore.Core.deps.json
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Core\bin\Debug\netcoreapp2.0\EnCore.Core.dll
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Core\obj\Debug\netcoreapp2.0\EnCore.Core.csproj.CoreCompileInputs.cache
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Core\obj\Debug\netcoreapp2.0\EnCore.Core.AssemblyInfoInputs.cache
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Core\obj\Debug\netcoreapp2.0\EnCore.Core.AssemblyInfo.cs
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Core\bin\Debug\netcoreapp2.0\EnCore.Core.pdb
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Core\obj\Debug\netcoreapp2.0\EnCore.Core.dll
+c:\users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Core\obj\Debug\netcoreapp2.0\EnCore.Core.pdb
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Core\obj\Debug\netcoreapp2.0\EnCore.Core.csprojResolveAssemblyReference.cache

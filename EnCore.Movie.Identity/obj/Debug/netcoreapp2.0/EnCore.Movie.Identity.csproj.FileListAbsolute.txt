@@ -1,0 +1,15 @@
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\bin\Debug\netcoreapp2.0\EnCore.Movie.Identity.deps.json
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\bin\Debug\netcoreapp2.0\EnCore.Movie.Identity.dll
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\bin\Debug\netcoreapp2.0\EnCore.Movie.Identity.pdb
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\bin\Debug\netcoreapp2.0\EnCore.Core.dll
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\bin\Debug\netcoreapp2.0\EnCore.Movie.Core.dll
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\bin\Debug\netcoreapp2.0\EnCore.Movie.Data.dll
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\bin\Debug\netcoreapp2.0\EnCore.Core.pdb
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\bin\Debug\netcoreapp2.0\EnCore.Movie.Core.pdb
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\bin\Debug\netcoreapp2.0\EnCore.Movie.Data.pdb
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\obj\Debug\netcoreapp2.0\EnCore.Movie.Identity.csprojResolveAssemblyReference.cache
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\obj\Debug\netcoreapp2.0\EnCore.Movie.Identity.csproj.CoreCompileInputs.cache
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\obj\Debug\netcoreapp2.0\EnCore.Movie.Identity.AssemblyInfoInputs.cache
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\obj\Debug\netcoreapp2.0\EnCore.Movie.Identity.AssemblyInfo.cs
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\obj\Debug\netcoreapp2.0\EnCore.Movie.Identity.dll
+C:\Users\grodriguez\documents\visual studio 2017\Projects\Movie\EnCore.Movie.Identity\obj\Debug\netcoreapp2.0\EnCore.Movie.Identity.pdb
