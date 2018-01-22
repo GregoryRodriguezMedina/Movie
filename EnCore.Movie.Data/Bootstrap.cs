@@ -15,6 +15,10 @@ namespace EnCore.Movie.Data
             services.AddScoped<IPhoneRepository, PhoneRepository>();
             services.AddScoped<IRentalDetailRepository, RentalDetailRepository>();
             services.AddScoped<IRentalRepository, RentalRepository>();
+
+
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ISessionRepository, SessionRepository>();
         }
     }
 }

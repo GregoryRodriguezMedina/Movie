@@ -28,6 +28,7 @@ namespace EnCore.Movie.Data
         public virtual DbSet<RentalDetail> RentalDetails { get; set; }
         public virtual DbSet<Rental> Rentals { get; set; }
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Session> Sessions { get; set; }
 
     }
 }

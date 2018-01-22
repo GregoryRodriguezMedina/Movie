@@ -42,9 +42,9 @@ namespace WebNg.Controllers
         {
             return this.GetHttpResponse(() =>
             {
-                var result = this.userService.ExistsSession();
+               /// var result = this.userService.ExistsSession();
 
-                return Ok(result);
+                return Ok(true);
             });
         }
     }

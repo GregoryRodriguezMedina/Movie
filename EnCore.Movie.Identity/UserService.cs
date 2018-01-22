@@ -1,4 +1,5 @@
-﻿using EnCore.Movie.Core;
+﻿using EnCore.Core;
+using EnCore.Movie.Core;
 using EnCore.Movie.Data;
 using System;
 using System.Security.Principal;
@@ -8,10 +9,10 @@ namespace EnCore.Movie.Identity
 {
     public partial class UserService
     {
-        private readonly UserRepository userRepository;
-        private readonly SessionRepository sessionRepository;
+        private readonly IUserRepository userRepository;
+        private readonly ISessionRepository sessionRepository;
 
-        public UserService(UserRepository userRepository, SessionRepository sessionRepository)
+        public UserService(IUserRepository userRepository, ISessionRepository sessionRepository)
         {
             this.userRepository = userRepository;
             this.sessionRepository = sessionRepository;
@@ -19,34 +20,57 @@ namespace EnCore.Movie.Identity
 
         public bool ExistsSession()
         {
-            //IPrincipal threadPrincipal = Thread.CurrentPrincipal;
+            IPrincipal threadPrincipal = Thread.CurrentPrincipal;
 
-            //if (!threadPrincipal.Identity.IsAuthenticated)
-            //    return false;
+            if (threadPrincipal == null)
+            {
+                if (this.sessionRepository.Exists(GetCumputeName()))
+                    return true;
+                
+                return false;
+            }
 
-            //int userId = int.Parse(threadPrincipal.Identity.Name);
+            if (!threadPrincipal.Identity.IsAuthenticated)
+                return false;
 
-            //return this.sessionRepository.Exists(userId);
+            int userId = int.Parse(threadPrincipal.Identity.Name);
 
-            return true;
+            return this.sessionRepository.Exists(userId);
+        }
+
+        public object Login(LoginRequest login)
+        {
+            return this.Login(login.User, login.Password);
+        }
+
+        private string GetCumputeName() {
+          //  Request.ServerVariables["REMOTE_USER"]
+
+          //  string PCName = System.Net.Dns.GetHostEntry(Request.ServerVariables["REMOTE_ADDR"]).HostName;
+
+
+            return Environment.GetEnvironmentVariable("CUMPUTERNAME") ?? Environment.GetEnvironmentVariable("HOSTNAME");
         }
 
         public LoginResponse Login(string user, string password)
         {
             var query = this.userRepository.Login(user, password);
             if (query == null)
-                throw new System.Security.SecurityException("El usuario o password son invalidos.");
+                throw new BusinessException("El usuario o password son invalidos.");
 
+            
             this.sessionRepository.Insert(new Session
             {
                 CreatedOn = DateTime.Now,
-                UserId = query.UserId
+                UserId = query.UserId,
+                Token = Guid.NewGuid(),
+                Machine = GetCumputeName()
             });
 
-            //Thread.CurrentPrincipal =
-            //    new GenericPrincipal(new GenericIdentity(query.UserId.ToString()), new string[] { "admin" });
+            Thread.CurrentPrincipal =
+                new GenericPrincipal(new GenericIdentity(query.UserId.ToString()), new string[] { "admin" });
 
-
+            this.userRepository.SaveChanges();
 
             return new LoginResponse
             {

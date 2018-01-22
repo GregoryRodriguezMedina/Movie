@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnCore.Movie.Services", "En
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnCore.Movie.Identity", "EnCore.Movie.Identity\EnCore.Movie.Identity.csproj", "{2274D878-C196-45A3-8E89-3DEC2F92DE4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnCore.Movie.Web", "EnCore.Movie.Web\EnCore.Movie.Web.csproj", "{8CF75925-9587-4FCF-A3E1-AB35E8CB2311}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebNg", "WebNg\WebNg.csproj", "{DB0A7B7A-FBBD-4704-8447-501FCA75B214}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{2274D878-C196-45A3-8E89-3DEC2F92DE4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2274D878-C196-45A3-8E89-3DEC2F92DE4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2274D878-C196-45A3-8E89-3DEC2F92DE4A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8CF75925-9587-4FCF-A3E1-AB35E8CB2311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8CF75925-9587-4FCF-A3E1-AB35E8CB2311}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8CF75925-9587-4FCF-A3E1-AB35E8CB2311}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8CF75925-9587-4FCF-A3E1-AB35E8CB2311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0A7B7A-FBBD-4704-8447-501FCA75B214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0A7B7A-FBBD-4704-8447-501FCA75B214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0A7B7A-FBBD-4704-8447-501FCA75B214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0A7B7A-FBBD-4704-8447-501FCA75B214}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
